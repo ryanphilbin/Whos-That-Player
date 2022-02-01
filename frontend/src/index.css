@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: slategray;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.SuperBowl{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-flow: column;
+  vertical-align: top;
+}
+
+.teamButton{
+  background-color: beige;
+  color: black;
+  width: 125px;
+  height: 65px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-width: 4px;
+  border-color: darkslategray;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.active{
+  border-color:limegreen;
+}
+

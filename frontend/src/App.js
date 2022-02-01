@@ -1,10 +1,9 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Navigate, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Navigate, Routes, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import TeamPage from './pages/TeamPage';
-import HomePageTitle from './components/HomePageTitle';
+import SuperBowl56 from './pages/SuperBowl56';
 
 function App() {
 
@@ -16,6 +15,7 @@ function App() {
 
           <Route path="/" element={<HomePage />} />
           <Route path="/teams" element={<TeamPage />} />
+          <Route path="/SuperBowl56" element={<SuperBowl56 />} />
 
         </Routes>
         
